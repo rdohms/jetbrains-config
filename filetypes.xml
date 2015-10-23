@@ -1,0 +1,25 @@
+<application>
+  <component name="FileTypeManager" version="15">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;.tox;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
+    <extensionMap>
+      <mapping ext="tmpl" type="HTML" />
+      <mapping pattern=".bowerrc" type="JSON" />
+      <mapping ext="" type="Native" />
+      <mapping ext="tmproj" type="Native" />
+      <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern=".my.cnf" type="PLAIN_TEXT" />
+      <mapping ext="template" type="PLAIN_TEXT" />
+      <mapping ext="test" type="PLAIN_TEXT" />
+      <mapping ext="lol" type="PLAIN_TEXT" />
+      <mapping ext="raml" type="PLAIN_TEXT" />
+      <mapping ext="j2" type="Twig" />
+      <mapping pattern="web.config" type="XML" />
+      <mapping ext="xliff" type="XML" />
+      <mapping ext="xlf" type="XML" />
+      <mapping pattern="composer.lock" type="YAML" />
+      <mapping pattern="code-entry" type="LESS" />
+    </extensionMap>
+  </component>
+</application>

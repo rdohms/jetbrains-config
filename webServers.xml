@@ -1,0 +1,22 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="855b8fb6-2666-494f-a720-e9035dde6be6" name="CaaS Local" url="http://caas.web">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="377ef871-c45b-4726-8f0c-d26e0afe2f46" name="Board" url="http://board.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="fa40b174-75d5-4f35-a324-6fbe98623505" name="Agg" url="http://aggregate.dev">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+      <webServer id="c7e3a7d9-dd47-41a6-b969-eafc5abfeb93" name="rdohms.symbid.com" url="http://rdohms.sym.bid">
+        <fileTransfer host="rdohms.sym.bid" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" username="ubuntu" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
