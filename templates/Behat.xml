@@ -1,8 +1,0 @@
-<templateSet group="Behat">
-  <template name="scenario" value="  Scenario: $SCENARIO$&#10;    Given $END$&#10;      And &#10;     When &#10;     Then " description="Behat Scenario" toReformat="false" toShortenFQNames="true">
-    <variable name="SCENARIO" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="CUCUMBER_FEATURE_FILE" value="true" />
-    </context>
-  </template>
-</templateSet>
