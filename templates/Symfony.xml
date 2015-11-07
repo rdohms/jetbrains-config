@@ -1,0 +1,38 @@
+<templateSet group="Symfony">
+  <template name="use_assert" value="use Symfony\Component\Validator\Constraints as Assert;" description="Imports Validation constraints" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="use_filter" value="use DMS\Filter\Rules as Filter;" description="Import DMS Filter Rules" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="use_orm" value="use Doctrine\ORM\Mapping as ORM;" description="Import Doctrine Annotations" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="use_rest" value="use FOS\RestBundle\Controller\Annotations as Rest;" description="FOSRestBundle" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="use_jms_serializer" value="use JMS\Serializer\Annotation as Serializer;" description="JMSSerializer" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="use_symfony_controller" value="use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;&#10;use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;&#10;use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;" description="Import standard annotations for Symfony Controllers" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="xlf_entry" value="&lt;trans-unit id=&quot;$entry$&quot; resname=&quot;$entry$&quot;&gt;&#10;    &lt;source&gt;$entry$&lt;/source&gt;&#10;    &lt;target&gt;__$entry$&lt;/target&gt;&#10;&lt;/trans-unit&gt;" description="Entry in Translation" toReformat="true" toShortenFQNames="true">
+    <variable name="entry" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
