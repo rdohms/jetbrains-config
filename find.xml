@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'stream-identity-api'" />
-    <option name="defaultScopeName" value="Project 'stream-identity-api'" />
+    <option name="customScope" value="Project 'dms-filter'" />
+    <option name="defaultScopeName" value="Project 'dms-filter'" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'stream-identity-api'" />
+    <option name="SEARCH_SCOPE" value="Project 'dms-filter'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
