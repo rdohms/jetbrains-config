@@ -270,9 +270,9 @@
             <configuration_option name="xdebug.remote_autostart" value="0" />
             <configuration_option name="xdebug.remote_connect_back" value="0" />
             <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
-            <configuration_option name="xdebug.remote_enable" value="0" />
+            <configuration_option name="xdebug.remote_enable" value="1" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
-            <configuration_option name="xdebug.remote_host" value="localhost" />
+            <configuration_option name="xdebug.remote_host" value="127.0.0.1" />
             <configuration_option name="xdebug.remote_log" value="" />
             <configuration_option name="xdebug.remote_mode" value="req" />
             <configuration_option name="xdebug.remote_port" value="9000" />
