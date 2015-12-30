@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'dms-filter'" />
-    <option name="defaultScopeName" value="Project 'dms-filter'" />
+    <option name="customScope" value="Own files" />
+    <option name="defaultScopeName" value="Own files" />
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'dms-filter'" />
+    <option name="SEARCH_SCOPE" value="Own files" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
