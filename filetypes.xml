@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping pattern=".env" type="Bash" />
       <mapping ext="tmpl" type="HTML" />
       <mapping pattern=".bowerrc" type="JSON" />
       <mapping ext="" type="Native" />
@@ -20,6 +19,7 @@
       <mapping ext="xliff" type="XML" />
       <mapping ext="xlf" type="XML" />
       <mapping pattern="composer.lock" type="YAML" />
+      <mapping pattern=".env" type="Bash" />
       <mapping pattern="code-entry" type="LESS" />
     </extensionMap>
   </component>
