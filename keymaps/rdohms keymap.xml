@@ -1,4 +1,4 @@
-<keymap version="1" name="Default copy 0" parent="Mac OS X 10.5+">
+<keymap version="1" name="rdohms keymap" parent="Mac OS X 10.5+">
   <action id="CompareTwoFiles" />
   <action id="DashLauncherAction" />
   <action id="Diff.ShowDiff" />
