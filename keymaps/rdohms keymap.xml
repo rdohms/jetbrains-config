@@ -19,6 +19,10 @@
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="RecentFiles" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="shift f10" />
+  </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />
   <action id="SplitHorizontally">
