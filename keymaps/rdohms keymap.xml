@@ -1,4 +1,8 @@
-<keymap version="1" name="Default copy 0" parent="Mac OS X 10.5+">
+<keymap version="1" name="rdohms keymap" parent="Mac OS X 10.5+">
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="shift space" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="DashLauncherAction" />
   <action id="Diff.ShowDiff" />
@@ -15,6 +19,10 @@
   </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="RecentFiles" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="shift f10" />
+  </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />
   <action id="SplitHorizontally">
@@ -22,6 +30,21 @@
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="Uml.ShowDiff" />
   <action id="UsageView.ShowRecentFindUsages" />

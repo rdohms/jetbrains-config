@@ -1,0 +1,8 @@
+<templateSet group="XLIFF">
+  <template name="entry" value="&lt;trans-unit id=&quot;$ID$&quot; resname=&quot;$ID$&quot;&gt;&#10;    &lt;source&gt;$ID$&lt;/source&gt;&#10;    &lt;target&gt;__$ID$$END$&lt;/target&gt;&#10;&lt;/trans-unit&gt;" description="xliff-entry" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>
