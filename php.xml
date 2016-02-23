@@ -19,7 +19,7 @@
     <phpInfoCache>
       <interpreter name="PHP (Brew)">
         <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php70/7.0.2/bin/php-cgi" php_cli="/usr/local/Cellar/php70/7.0.2/bin/php" path_separator=":" remote_host="127.0.0.1" version="7.0.2">
-          <additional_php_ini>/usr/local/etc/php/7.0/conf.d/ext-intl.ini, /usr/local/etc/php/7.0/conf.d/ext-tidy.ini, /usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</additional_php_ini>
+          <additional_php_ini>/usr/local/etc/php/7.0/conf.d/ext-blackfire.ini, /usr/local/etc/php/7.0/conf.d/ext-intl.ini, /usr/local/etc/php/7.0/conf.d/ext-tidy.ini, /usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.0/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
@@ -38,6 +38,14 @@
             <configuration_option name="auto_globals_jit" value="1" />
             <configuration_option name="auto_prepend_file" value="" />
             <configuration_option name="bcmath.scale" value="0" />
+            <configuration_option name="blackfire.agent_socket" value="unix:///usr/local/var/run/blackfire-agent.sock" />
+            <configuration_option name="blackfire.agent_timeout" value="0.25" />
+            <configuration_option name="blackfire.env_id" value="" />
+            <configuration_option name="blackfire.env_token" value="" />
+            <configuration_option name="blackfire.log_file" value="" />
+            <configuration_option name="blackfire.log_level" value="1" />
+            <configuration_option name="blackfire.server_id" value="" />
+            <configuration_option name="blackfire.server_token" value="" />
             <configuration_option name="browscap" value="" />
             <configuration_option name="cli.pager" value="" />
             <configuration_option name="cli.prompt" value="\b \&gt; " />
@@ -266,7 +274,7 @@
             <configuration_option name="xdebug.profiler_output_name" value="cachegrind.out.%p" />
             <configuration_option name="xdebug.remote_addr_header" value="" />
             <configuration_option name="xdebug.remote_autostart" value="0" />
-            <configuration_option name="xdebug.remote_connect_back" value="0" />
+            <configuration_option name="xdebug.remote_connect_back" value="1" />
             <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
             <configuration_option name="xdebug.remote_enable" value="1" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
@@ -301,7 +309,7 @@
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.4.0RC2">
+            <debugger_info debugger="xdebug" debugger_version="2.4.0RC3">
               <debug_extensions />
             </debugger_info>
           </debuggers>
@@ -314,6 +322,7 @@
             <extension name="SPL" />
             <extension name="SimpleXML" />
             <extension name="bcmath" />
+            <extension name="blackfire" />
             <extension name="bz2" />
             <extension name="calendar" />
             <extension name="ctype" />
