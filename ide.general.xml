@@ -9,5 +9,6 @@
     <entry key="ide.firstStartup" value="false" />
     <entry key="editor.allow.multiple.carets" value="true" />
     <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
+    <entry key="dumb.aware.run.configurations" value="true" />
   </component>
 </application>
