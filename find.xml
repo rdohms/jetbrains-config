@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="Directory '/Users/rdohms/dev/symbid/stream-identity-api/vendor/symbid/standard-library/src'" />
     <option name="defaultScopeName" value="Directory '/Users/rdohms/dev/symbid/stream-identity-api/vendor/symbid/standard-library/src'" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Directory '/Users/rdohms/dev/symbid/stream-identity-api/vendor/symbid/standard-library/src'" />
     <recentFileMasks>
       <mask>*.properties</mask>
