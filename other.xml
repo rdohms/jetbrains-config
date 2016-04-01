@@ -101,6 +101,16 @@
     <option name="KEEP_ITN_PASSWORD" value="true" />
     <option name="EMAIL" value="" />
   </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/5.5.0/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/5.0.0/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/0.12.7/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/0.12.1/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/0.10.36/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/0.10.29/bin/node" />
+    <local-interpreter path="/usr/local/Cellar/node/0.10.26/bin/node" />
+  </component>
   <component name="PhpRefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="true" />
     <option name="RENAME_SEARCH_NON_CODE_FOR_CLASS" value="true" />
