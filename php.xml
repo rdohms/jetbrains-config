@@ -646,4 +646,9 @@
       </interpreter>
     </phpInfoCache>
   </component>
+  <component name="PhpLint">
+    <PhpLint_settings>
+      <PhpLintConfiguration />
+    </PhpLint_settings>
+  </component>
 </application>
