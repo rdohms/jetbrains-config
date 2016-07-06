@@ -8,7 +8,6 @@
     <option name="CARET_ROW_COLOR" value="313131" />
     <option name="INDENT_GUIDE" value="333333" />
     <option name="LEFT_GUTTER_BACKGROUND" value="333333" />
-    <option name="LINE_NUMBERS_COLOR" value="999999" />
     <option name="MODIFIED_LINES_COLOR" value="333333" />
     <option name="RIGHT_MARGIN_COLOR" value="666666" />
     <option name="SELECTED_INDENT_GUIDE" value="990099" />
@@ -699,7 +698,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="f0ecef" />
