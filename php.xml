@@ -15,6 +15,9 @@
       <interpreter home="/usr/local/bin/php" id="240136c8-0450-4f99-91fa-a9cba51ae3b3" name="PHP (Brew)" debugger_id="php.debugger.XDebug" />
       <interpreter home="/usr/local/Cellar/php56/5.6.23/bin/php" id="d9f93225-b9ef-4f80-a976-bd969e48c5e2" name="PHP (5.6)" debugger_id="php.debugger.XDebug" />
       <interpreter home="/usr/local/Cellar/php70/7.0.8/bin/php" id="300555e5-2a19-4f2d-9b38-fce41f375842" name="PHP (7.0)" debugger_id="php.debugger.XDebug" />
+      <interpreter home="ssh://root@localhost:4422/usr/bin/php" id="eee95bf5-f0b2-4b38-bab9-457d85593892" name="Remote PHP" debugger_id="php.debugger.XDebug">
+        <remote_data HOST="localhost" PORT="4422" ANONYMOUS="false" USERNAME="root" PASSWORD="" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="" INITIALIZED="false" VALID="true" />
+      </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
