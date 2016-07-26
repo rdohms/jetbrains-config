@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../app/application/src/Usabilla/Bundle/SpreedlyBundle/Spreedly/Spreedly.php - [usabilla]'" />
-    <option name="defaultScopeName" value="File '.../app/application/src/Usabilla/Bundle/SpreedlyBundle/Spreedly/Spreedly.php - [usabilla]'" />
-    <option name="SEARCH_SCOPE" value="File '.../app/application/src/Usabilla/Bundle/SpreedlyBundle/Spreedly/Spreedly.php - [usabilla]'" />
+    <option name="customScope" value="File '.../app/application/src/Usabilla/Bundle/AccountBundle/Entity/TeamUser.php - [usabilla]'" />
+    <option name="defaultScopeName" value="File '.../app/application/src/Usabilla/Bundle/AccountBundle/Entity/TeamUser.php - [usabilla]'" />
+    <option name="SEARCH_SCOPE" value="File '.../app/application/src/Usabilla/Bundle/AccountBundle/Entity/TeamUser.php - [usabilla]'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
