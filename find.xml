@@ -1,7 +1,9 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="File '.../app/application/src/Usabilla/Bundle/AccountBundle/Validator/Constraint/CompatiblePasswordValidator.php - [usabilla]'" />
     <option name="defaultScopeName" value="File '.../app/application/src/Usabilla/Bundle/AccountBundle/Validator/Constraint/CompatiblePasswordValidator.php - [usabilla]'" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="File '.../app/application/src/Usabilla/Bundle/AccountBundle/Validator/Constraint/CompatiblePasswordValidator.php - [usabilla]'" />
     <recentFileMasks>
       <mask>*.properties</mask>
