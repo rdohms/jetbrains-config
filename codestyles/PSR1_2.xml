@@ -10,6 +10,7 @@
     <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
   </PHPCodeStyleSettings>
   <XML>
+    <option name="XML_ATTRIBUTE_WRAP" value="4" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <codeStyleSettings language="JSON">
@@ -44,6 +45,10 @@
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
     </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="XML">
+    <option name="RIGHT_MARGIN" value="120" />
+    <option name="WRAP_ON_TYPING" value="0" />
   </codeStyleSettings>
   <codeStyleSettings language="yaml">
     <indentOptions>
