@@ -647,8 +647,8 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP (Brew)">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php70/7.0.4/bin/php-cgi" php_cli="/usr/local/Cellar/php70/7.0.4/bin/php" path_separator=":" remote_host="127.0.0.1" version="7.0.4">
-          <additional_php_ini>/usr/local/etc/php/7.0/conf.d/ext-blackfire.ini, /usr/local/etc/php/7.0/conf.d/ext-intl.ini, /usr/local/etc/php/7.0/conf.d/ext-tidy.ini, /usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php70/7.0.9/bin/php-cgi" php_cli="/usr/local/Cellar/php70/7.0.9/bin/php" path_separator=":" version="7.0.9">
+          <additional_php_ini>/usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.0/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
@@ -667,14 +667,6 @@
             <configuration_option name="auto_globals_jit" value="1" />
             <configuration_option name="auto_prepend_file" value="" />
             <configuration_option name="bcmath.scale" value="0" />
-            <configuration_option name="blackfire.agent_socket" value="unix:///usr/local/var/run/blackfire-agent.sock" />
-            <configuration_option name="blackfire.agent_timeout" value="0.25" />
-            <configuration_option name="blackfire.env_id" value="" />
-            <configuration_option name="blackfire.env_token" value="" />
-            <configuration_option name="blackfire.log_file" value="" />
-            <configuration_option name="blackfire.log_level" value="1" />
-            <configuration_option name="blackfire.server_id" value="" />
-            <configuration_option name="blackfire.server_token" value="" />
             <configuration_option name="browscap" value="" />
             <configuration_option name="cli.pager" value="" />
             <configuration_option name="cli.prompt" value="\b \&gt; " />
@@ -709,7 +701,7 @@
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/usr/local/Cellar/php70/7.0.4/lib/php/extensions/no-debug-non-zts-20151012" />
+            <configuration_option name="extension_dir" value="/usr/local/Cellar/php70/7.0.9/lib/php/extensions/no-debug-non-zts-20151012" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -731,9 +723,6 @@
             <configuration_option name="include_path" value=".:" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
-            <configuration_option name="intl.default_locale" value="" />
-            <configuration_option name="intl.error_level" value="0" />
-            <configuration_option name="intl.use_exceptions" value="0" />
             <configuration_option name="ldap.max_links" value="-1" />
             <configuration_option name="log_errors" value="1" />
             <configuration_option name="log_errors_max_len" value="1024" />
@@ -755,7 +744,7 @@
             <configuration_option name="mbstring.language" value="neutral" />
             <configuration_option name="mbstring.strict_detection" value="0" />
             <configuration_option name="mbstring.substitute_character" value="" />
-            <configuration_option name="memory_limit" value="1024M" />
+            <configuration_option name="memory_limit" value="128M" />
             <configuration_option name="mysqli.allow_local_infile" value="1" />
             <configuration_option name="mysqli.allow_persistent" value="1" />
             <configuration_option name="mysqli.default_host" value="" />
@@ -853,8 +842,6 @@
             <configuration_option name="sql.safe_mode" value="" />
             <configuration_option name="sqlite3.extension_dir" value="" />
             <configuration_option name="sys_temp_dir" value="" />
-            <configuration_option name="tidy.clean_output" value="" />
-            <configuration_option name="tidy.default_config" value="" />
             <configuration_option name="track_errors" value="1" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="2M" />
@@ -903,9 +890,9 @@
             <configuration_option name="xdebug.profiler_output_name" value="cachegrind.out.%p" />
             <configuration_option name="xdebug.remote_addr_header" value="" />
             <configuration_option name="xdebug.remote_autostart" value="0" />
-            <configuration_option name="xdebug.remote_connect_back" value="1" />
+            <configuration_option name="xdebug.remote_connect_back" value="0" />
             <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
-            <configuration_option name="xdebug.remote_enable" value="1" />
+            <configuration_option name="xdebug.remote_enable" value="0" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
             <configuration_option name="xdebug.remote_host" value="localhost" />
             <configuration_option name="xdebug.remote_log" value="" />
@@ -951,7 +938,6 @@
             <extension name="SPL" />
             <extension name="SimpleXML" />
             <extension name="bcmath" />
-            <extension name="blackfire" />
             <extension name="bz2" />
             <extension name="calendar" />
             <extension name="ctype" />
@@ -967,7 +953,6 @@
             <extension name="gettext" />
             <extension name="hash" />
             <extension name="iconv" />
-            <extension name="intl" />
             <extension name="json" />
             <extension name="ldap" />
             <extension name="libxml" />
@@ -991,7 +976,6 @@
             <extension name="sysvmsg" />
             <extension name="sysvsem" />
             <extension name="sysvshm" />
-            <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
             <extension name="xdebug" />
@@ -1372,7 +1356,7 @@
             <configuration_option name="mbstring.language" value="neutral" />
             <configuration_option name="mbstring.strict_detection" value="0" />
             <configuration_option name="mbstring.substitute_character" value="" />
-            <configuration_option name="memory_limit" value="128M" />
+            <configuration_option name="memory_limit" value="2G" />
             <configuration_option name="mysql.allow_local_infile" value="1" />
             <configuration_option name="mysql.allow_persistent" value="1" />
             <configuration_option name="mysql.connect_timeout" value="60" />
