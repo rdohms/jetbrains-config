@@ -1555,4 +1555,9 @@
       <PhpLintConfiguration />
     </PhpLint_settings>
   </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <phpunit_by_interpreter interpreter_id="eee95bf5-f0b2-4b38-bab9-457d85593892" load_method="CUSTOM_LOADER" configuration_file_path="/unison/usabilla/app/application/app/phpunit.xml.dist" custom_loader_path="/unison/usabilla/app/application/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
 </application>
