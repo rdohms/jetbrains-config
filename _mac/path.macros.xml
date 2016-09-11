@@ -1,9 +1,5 @@
 <application>
   <component name="PathMacrosImpl">
-    <macro name="ProjectDir" value="/Users/rdohms/dev/amsterdamphp/console" />
-    <ignoredMacro name="MESSAGE" />
-    <ignoredMacro name="FILE_PATH" />
-    <ignoredMacro name="LINE" />
-    <ignoredMacro name="COLUMN" />
+    <macro name="ProjectDir" value="/Users/rdohms/dev/usabilla/slack-bot" />
   </component>
 </application>
