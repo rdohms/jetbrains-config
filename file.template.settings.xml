@@ -1,9 +1,10 @@
 <application>
   <component name="ExportableFileTemplateSettings">
-    <internal_templates>
-      <template name="HTML File.html" reformat="true" live-template-enabled="true" enabled="true" />
-      <template name="HTML4 File.html" reformat="true" live-template-enabled="true" enabled="true" />
-      <template name="XHTML File.xhtml" reformat="true" live-template-enabled="true" enabled="true" />
-    </internal_templates>
+    <default_templates>
+      <template name="Symfony DI file.xml" reformat="true" live-template-enabled="true" />
+    </default_templates>
+    <j2ee_templates>
+      <template name="Spec Class.php" reformat="true" live-template-enabled="false" enabled="false" />
+    </j2ee_templates>
   </component>
 </application>
