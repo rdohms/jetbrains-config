@@ -2,8 +2,8 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping pattern=".env" type="Bash" />
       <mapping pattern="post-checkout" type="Bash" />
+      <mapping pattern=".env" type="Bash" />
       <mapping ext="tmpl" type="HTML" />
       <mapping pattern=".bowerrc" type="JSON" />
       <mapping ext="" type="Native" />
@@ -17,6 +17,7 @@
       <mapping ext="raml" type="PLAIN_TEXT" />
       <mapping ext="test" type="PLAIN_TEXT" />
       <mapping ext="lol" type="PLAIN_TEXT" />
+      <mapping pattern="*.scss.dist" type="SCSS" />
       <mapping ext="j2" type="Twig" />
       <mapping pattern="web.config" type="XML" />
       <mapping ext="xliff" type="XML" />
