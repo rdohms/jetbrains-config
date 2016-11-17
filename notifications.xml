@@ -1,41 +1,20 @@
 <application>
   <component name="NotificationConfiguration">
-    <notification groupId="Browser Connection" displayType="STICKY_BALLOON" />
-    <notification groupId="Browser Extension requested to be installed" />
-    <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
-    <notification groupId="Composer" />
     <notification groupId="Database editor log" displayType="NONE" />
     <notification groupId="Database refactoring log" displayType="NONE" />
     <notification groupId="Database view" displayType="TOOL_WINDOW" />
     <notification groupId="Debugger messages" displayType="TOOL_WINDOW" shouldLog="false" />
-    <notification groupId="Error Report" />
-    <notification groupId="Execution" displayType="NONE" />
     <notification groupId="External Executable Critical Failures" displayType="TOOL_WINDOW" />
     <notification groupId="Git Important Messages" displayType="STICKY_BALLOON" />
     <notification groupId="Git Messages" displayType="TOOL_WINDOW" />
-    <notification groupId="Git Minor Notifications" />
     <notification groupId="IDE Fatal Errors" displayType="NONE" />
     <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
     <notification groupId="Inspection Results" displayType="TOOL_WINDOW" />
     <notification groupId="JavaScript Library Management" displayType="STICKY_BALLOON" />
     <notification groupId="Mercurial Important Messages" displayType="STICKY_BALLOON" />
     <notification groupId="Mercurial Messages" displayType="TOOL_WINDOW" />
-    <notification groupId="MessDetector" />
-    <notification groupId="Notification group display Id" />
-    <notification groupId="PHP Debugger" displayType="TOOL_WINDOW" shouldLog="false" />
-    <notification groupId="PHP External Quality Tools" />
-    <notification groupId="PHP Profiler" />
-    <notification groupId="PHPCodeSniffer" />
-    <notification groupId="PHPUnit" displayType="TOOL_WINDOW" shouldLog="false" />
-    <notification groupId="PHPUnit Generate Actions" />
-    <notification groupId="RVM Support" />
-    <notification groupId="Symfony2 Plugin" />
     <notification groupId="Test Runner" displayType="NONE" />
-    <notification groupId="TextMate Bundles" />
     <notification groupId="Update Checker" displayType="STICKY_BALLOON" />
-    <notification groupId="update.available.group" />
-    <notification groupId="Upgrade Subscription Renewal" />
-    <notification groupId="Vcs Important Messages" displayType="STICKY_BALLOON" />
-    <notification groupId="Vcs Minor Notifications" />
+    <notification groupId="Wallaby Expired License" displayType="STICKY_BALLOON" shouldLog="false" />
   </component>
 </application>
