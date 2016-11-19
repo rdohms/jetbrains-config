@@ -15,6 +15,6 @@
     <notification groupId="Mercurial Messages" displayType="TOOL_WINDOW" />
     <notification groupId="Test Runner" displayType="NONE" />
     <notification groupId="Update Checker" displayType="STICKY_BALLOON" />
-    <notification groupId="Wallaby Expired License" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Wallaby Expired License" displayType="NONE" shouldLog="false" />
   </component>
 </application>
