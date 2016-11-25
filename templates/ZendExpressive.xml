@@ -1,0 +1,7 @@
+<templateSet group="ZendExpressive">
+  <template name="ze-action" value="public function __invoke(ServerRequestInterface $request, ResponseInterface $response, callable $next = null)&#10;    {&#10;&#10;    }" description="Invokable action" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
