@@ -1,4 +1,7 @@
 <scheme name="RdohmsStyle" version="142" parent_scheme="Default">
+  <metaInfo>
+    <property name="modified">2016-12-20T14:43:52</property>
+  </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Monaco" />
@@ -611,6 +614,11 @@
     <option name="PUPPET_KEYWORD">
       <value>
         <option name="FOREGROUND" value="ffa911" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR1">
+      <value>
+        <option name="FOREGROUND" value="1c7792" />
       </value>
     </option>
     <option name="REQUIRE_GEM_CALL">
