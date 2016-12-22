@@ -1,6 +1,6 @@
 <scheme name="custom" version="142" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="FONT_SCALE" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <attributes>
     <option name="BREAKPOINT_ATTRIBUTES">
@@ -80,6 +80,9 @@
         <option name="FOREGROUND" value="800080" />
         <option name="FONT_TYPE" value="1" />
       </value>
+    </option>
+    <option name="TEXT">
+      <value />
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
