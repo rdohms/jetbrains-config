@@ -1,12 +1,12 @@
 <templateSet group="XML Config">
-  <template name="service" value="        &lt;service class=&quot;$CLASS$&quot; id=&quot;$ID$&quot;&gt;&#10;            $END$&#10;        &lt;/service&gt;" description="Symfony XML DI Service" toReformat="false" toShortenFQNames="true">
+  <template name="symfony-service-tag" value="        &lt;service class=&quot;$CLASS$&quot; id=&quot;$ID$&quot;&gt;&#10;            $END$&#10;        &lt;/service&gt;" description="Symfony XML DI Service" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="argument-service" value="&lt;argument type=&quot;service&quot; id=&quot;$ID$&quot;/&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="symfony-argument-service" value="&lt;argument type=&quot;service&quot; id=&quot;$ID$&quot;/&gt;" toReformat="false" toShortenFQNames="true">
     <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="XML" value="true" />
