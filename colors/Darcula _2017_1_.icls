@@ -4,8 +4,9 @@
     <property name="created">2016-12-22T23:18:51</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2016-12-22T23:21:32</property>
+    <property name="modified">2016-12-23T10:29:08</property>
     <property name="originalScheme">_@user_Darcula</property>
+    <property name="rainbow Default language">true</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
