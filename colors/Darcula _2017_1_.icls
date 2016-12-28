@@ -4,7 +4,7 @@
     <property name="created">2016-12-22T23:18:51</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2016-12-23T10:29:08</property>
+    <property name="modified">2016-12-28T13:20:09</property>
     <property name="originalScheme">_@user_Darcula</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
@@ -16,6 +16,18 @@
         <option name="FOREGROUND" value="ffffff" />
         <option name="EFFECT_COLOR" value="ff0000" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="LINE_FULL_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="2a7931" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LINE_PARTIAL_COVERAGE">
+      <value>
+        <option name="FOREGROUND" value="978f3d" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
   </attributes>
