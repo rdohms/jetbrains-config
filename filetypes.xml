@@ -14,7 +14,6 @@
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern=".my.cnf" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
-      <mapping ext="raml" type="PLAIN_TEXT" />
       <mapping ext="test" type="PLAIN_TEXT" />
       <mapping ext="lol" type="PLAIN_TEXT" />
       <mapping pattern="*.scss.dist" type="SCSS" />
