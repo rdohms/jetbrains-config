@@ -1,5 +1,5 @@
 <templateSet group="js">
-  <template name="sss" value="as" toReformat="false" toShortenFQNames="true">
+  <template name="sss" value="as" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

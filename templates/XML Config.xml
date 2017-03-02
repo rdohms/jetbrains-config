@@ -6,7 +6,7 @@
       <option name="XML" value="true" />
     </context>
   </template>
-  <template name="symfony-argument-service" value="&lt;argument type=&quot;service&quot; id=&quot;$ID$&quot;/&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="symfony-argument-service" value="&lt;argument type=&quot;service&quot; id=&quot;$ID$&quot;/&gt;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="XML" value="true" />
