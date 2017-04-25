@@ -1,16 +1,18 @@
 <application>
   <component name="UISettings">
-    <option name="FONT_FACE" value="Abadi MT Condensed Extra Bold" />
-    <option name="EDITOR_TAB_LIMIT" value="15" />
-    <option name="HIDE_TOOL_STRIPES" value="false" />
-    <option name="WIDESCREEN_SUPPORT" value="true" />
-    <option name="SHOW_MAIN_TOOLBAR" value="true" />
-    <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
-    <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
-    <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
     <option name="ALPHA_MODE_RATIO" value="0.3" />
-    <option name="SORT_LOOKUP_ELEMENTS_LEXICOGRAPHICALLY" value="true" />
-    <option name="MAX_LOOKUP_LIST_HEIGHT" value="5" />
+    <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
+    <option name="EDITOR_TAB_LIMIT" value="15" />
+    <option name="FONT_FACE" value="Abadi MT Condensed Extra Bold" />
+    <option name="FONT_SCALE" value="1.0" />
+    <option name="HIDE_KNOWN_EXTENSION_IN_TABS" value="true" />
+    <option name="HIDE_TOOL_STRIPES" value="false" />
     <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
+    <option name="MAX_LOOKUP_LIST_HEIGHT" value="5" />
+    <option name="MAX_LOOKUP_WIDTH2" value="558" />
+    <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
+    <option name="SHOW_MAIN_TOOLBAR" value="true" />
+    <option name="SORT_LOOKUP_ELEMENTS_LEXICOGRAPHICALLY" value="true" />
+    <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>
