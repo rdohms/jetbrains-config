@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="Project and Libraries" />
-    <option name="defaultScopeName" value="Project and Libraries" />
+    <option name="customScope" value="File '.../api/application/src/Usabilla/FeedbackBundle/Service/Integrations.php - [api]'" />
+    <option name="defaultScopeName" value="File '.../api/application/src/Usabilla/FeedbackBundle/Service/Integrations.php - [api]'" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="SEARCH_SCOPE" value="File '.../api/application/src/Usabilla/FeedbackBundle/Service/Integrations.php - [api]'" />
     <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.properties</mask>
