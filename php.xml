@@ -1919,7 +1919,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="b2754701-46ca-4fb7-8149-1f1f4eb0b0e9" load_method="CUSTOM_LOADER" configuration_file_path="/source/api/api/application/phpunit.xml.dist" custom_loader_path="/source/api/api/application/vendor/autoload.php" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="b2754701-46ca-4fb7-8149-1f1f4eb0b0e9" load_method="CUSTOM_LOADER" configuration_file_path="/source/usabilla/app/application/app/phpunit.xml.dist" custom_loader_path="/source/usabilla/app/application/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
