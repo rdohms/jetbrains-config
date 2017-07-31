@@ -23,6 +23,10 @@
       <mask>*[^T].php</mask>
       <mask>*[^Tes].php</mask>
       <mask>*[^Test].php</mask>
+      <mask>*C.php</mask>
+      <mask>*Contro.php</mask>
+      <mask>*Control.php</mask>
+      <mask>*Controller.php</mask>
     </recentFileMasks>
   </component>
 </application>
