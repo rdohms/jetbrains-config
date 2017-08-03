@@ -2,17 +2,17 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping pattern="post-checkout" type="Bash" />
       <mapping pattern=".env" type="Bash" />
+      <mapping pattern=".env.dist" type="Bash" />
+      <mapping pattern="post-checkout" type="Bash" />
       <mapping ext="tmpl" type="HTML" />
       <mapping pattern=".bowerrc" type="JSON" />
       <mapping ext="" type="Native" />
       <mapping ext="tmproj" type="Native" />
       <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
-      <mapping pattern=".env.dist" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern=".my.cnf" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="test" type="PLAIN_TEXT" />
       <mapping ext="lol" type="PLAIN_TEXT" />
@@ -23,6 +23,7 @@
       <mapping ext="xlf" type="XML" />
       <mapping pattern="*.yml.dist" type="YAML" />
       <mapping pattern="composer.lock" type="YAML" />
+      <removed_mapping pattern="composer.lock" type="composer.json" />
       <mapping pattern="code-entry" type="LESS" />
     </extensionMap>
   </component>
