@@ -304,8 +304,8 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP (Brew)">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php70/7.0.10_1/bin/php-cgi" php_cli="/usr/local/Cellar/php70/7.0.10_1/bin/php" path_separator=":" version="7.0.10">
-          <additional_php_ini>/usr/local/etc/php/7.0/conf.d/ext-pdo_pgsql.ini, /usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php70/7.0.19_11/bin/php-cgi" php_cli="/usr/local/Cellar/php70/7.0.19_11/bin/php" path_separator=":" version="7.0.19">
+          <additional_php_ini>/usr/local/etc/php/7.0/conf.d/ext-ast.ini, /usr/local/etc/php/7.0/conf.d/ext-mongodb.ini, /usr/local/etc/php/7.0/conf.d/ext-pdo_pgsql.ini, /usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.0/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
@@ -358,7 +358,7 @@
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/usr/local/Cellar/php70/7.0.10_1/lib/php/extensions/no-debug-non-zts-20151012" />
+            <configuration_option name="extension_dir" value="/usr/local/Cellar/php70/7.0.19_11/lib/php/extensions/no-debug-non-zts-20151012" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -401,7 +401,8 @@
             <configuration_option name="mbstring.language" value="neutral" />
             <configuration_option name="mbstring.strict_detection" value="0" />
             <configuration_option name="mbstring.substitute_character" value="" />
-            <configuration_option name="memory_limit" value="128M" />
+            <configuration_option name="memory_limit" value="2G" />
+            <configuration_option name="mongodb.debug" value="" />
             <configuration_option name="mysqli.allow_local_infile" value="1" />
             <configuration_option name="mysqli.allow_persistent" value="1" />
             <configuration_option name="mysqli.default_host" value="" />
@@ -449,7 +450,7 @@
             <configuration_option name="phar.require_hash" value="1" />
             <configuration_option name="post_max_size" value="8M" />
             <configuration_option name="precision" value="14" />
-            <configuration_option name="realpath_cache_size" value="16K" />
+            <configuration_option name="realpath_cache_size" value="4096K" />
             <configuration_option name="realpath_cache_ttl" value="120" />
             <configuration_option name="register_argc_argv" value="1" />
             <configuration_option name="report_memleaks" value="1" />
@@ -535,7 +536,7 @@
             <configuration_option name="xdebug.force_error_reporting" value="0" />
             <configuration_option name="xdebug.halt_level" value="0" />
             <configuration_option name="xdebug.idekey" value="" />
-            <configuration_option name="xdebug.max_nesting_level" value="256" />
+            <configuration_option name="xdebug.max_nesting_level" value="10000" />
             <configuration_option name="xdebug.max_stack_frames" value="-1" />
             <configuration_option name="xdebug.overload_var_dump" value="2" />
             <configuration_option name="xdebug.profiler_aggregate" value="0" />
@@ -582,7 +583,7 @@
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.4.0">
+            <debugger_info debugger="xdebug" debugger_version="2.4.1">
               <debug_extensions />
             </debugger_info>
           </debuggers>
@@ -594,6 +595,7 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
+            <extension name="ast" />
             <extension name="bcmath" />
             <extension name="bz2" />
             <extension name="calendar" />
@@ -614,6 +616,7 @@
             <extension name="ldap" />
             <extension name="libxml" />
             <extension name="mbstring" />
+            <extension name="mongodb" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="odbc" />
