@@ -1,0 +1,8 @@
+<templateSet group="JavaScript Testing">
+  <template name="test" value="test('$TEST$', () =&gt; {&#10;    $END$&#10;});" description="inserts test() block" toReformat="false" toShortenFQNames="true">
+    <variable name="TEST" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
