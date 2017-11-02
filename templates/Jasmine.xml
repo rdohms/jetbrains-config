@@ -1,17 +1,17 @@
 <templateSet group="Jasmine">
-  <template name="jit" value="it('$IT$', function () {&#10;    $END$&#10;});" description="Jasmine spec" toReformat="false" toShortenFQNames="true">
+  <template name="jit" value="it('$IT$', () =&gt; {&#10;    $END$&#10;});" description="Jasmine spec" toReformat="false" toShortenFQNames="true">
     <variable name="IT" expression="" defaultValue="&quot;spec title&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="jits" value="it('should $IT$', function () {&#10;    $END$&#10;});" description="Jasmine spec with should" toReformat="false" toShortenFQNames="true">
+  <template name="jits" value="it('should $IT$', () =&gt; {&#10;    $END$&#10;});" description="Jasmine spec with should" toReformat="false" toShortenFQNames="true">
     <variable name="IT" expression="" defaultValue="&quot;spec title&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="jdes" value="describe('$DESCRIBE$', function () {&#10;    $END$&#10;});" description="Jasmine suite" toReformat="false" toShortenFQNames="true">
+  <template name="jdes" value="describe('$DESCRIBE$', () =&gt; {&#10;    $END$&#10;});" description="Jasmine suite" toReformat="false" toShortenFQNames="true">
     <variable name="DESCRIBE" expression="" defaultValue="&quot;suite title&quot;" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
