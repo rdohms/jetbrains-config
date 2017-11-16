@@ -4,6 +4,7 @@
       <MessDetectorConfiguration tool_path="$USER_HOME$/.composer/vendor/bin/phpmd" />
     </phpmd_settings>
   </component>
+  <component name="PhpAutoImport" auto_import_from_global_scope="true" prepend_global_functions_and_constants="true" />
   <component name="PhpCodeSniffer">
     <phpcs_settings>
       <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/.composer/vendor/bin/phpcs" />
@@ -1916,10 +1917,5 @@
         </phpinfo>
       </interpreter>
     </phpInfoCache>
-  </component>
-  <component name="PhpUnit">
-    <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="fb72bfae-b98c-4338-9945-02fc1899ee6f" load_method="CUSTOM_LOADER" configuration_file_path="/unison/api/api/application/phpunit.xml.dist" custom_loader_path="/unison/api/api/application/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
-    </phpunit_settings>
   </component>
 </application>
