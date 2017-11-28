@@ -1,0 +1,12 @@
+<templateSet group="Gherkin">
+  <template name="scenario-ouline" value="  Scenario Outline: $END$&#10;    Given &#10;      And &#10;     When &#10;     Then&#10;      And " toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="true" />
+    </context>
+  </template>
+  <template name="scenario" value="  Scenario: $END$&#10;    Given &#10;      And &#10;     When &#10;     Then&#10;      And " toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CUCUMBER_FEATURE_FILE" value="true" />
+    </context>
+  </template>
+</templateSet>
