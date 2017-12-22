@@ -7,19 +7,20 @@
       <mapping pattern="post-checkout" type="Bash" />
       <mapping ext="tmpl" type="HTML" />
       <mapping pattern=".bowerrc" type="JSON" />
-      <mapping ext="" type="Native" />
       <mapping ext="tmproj" type="Native" />
+      <mapping ext="" type="Native" />
       <mapping pattern="console" type="PHP" />
-      <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
-      <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
-      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
+      <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern=".my.cnf" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
-      <mapping ext="test" type="PLAIN_TEXT" />
       <mapping ext="lol" type="PLAIN_TEXT" />
+      <mapping ext="test" type="PLAIN_TEXT" />
+      <mapping ext="prod" type="PLAIN_TEXT" />
       <mapping pattern="*.scss.dist" type="SCSS" />
       <mapping ext="j2" type="Twig" />
       <mapping pattern="web.config" type="XML" />
