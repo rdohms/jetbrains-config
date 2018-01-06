@@ -17,7 +17,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="setupDep" value="/**&#10; * @before&#10; */&#10;public function setupDependencies()&#10;{&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="setupDep" value="/**&#10; * @before&#10; */&#10;public function setupDependencies()&#10;{&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP" value="true" />
       <option name="PHP Comment" value="false" />
