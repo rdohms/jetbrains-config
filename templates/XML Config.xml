@@ -1,7 +1,7 @@
 <templateSet group="XML Config">
-  <template name="symfony-service-tag" value="        &lt;service class=&quot;$CLASS$&quot; id=&quot;$ID$&quot;&gt;&#10;            $END$&#10;        &lt;/service&gt;" description="Symfony XML DI Service" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="symfony-service-tag" value="        &lt;service id=&quot;$ID$&quot; class=&quot;$CLASS$&quot;&gt;&#10;            $END$&#10;        &lt;/service&gt;" description="Symfony XML DI Service" toReformat="false" toShortenFQNames="true">
     <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="XML" value="true" />
     </context>
