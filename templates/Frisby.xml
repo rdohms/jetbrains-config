@@ -1,0 +1,16 @@
+<templateSet group="Frisby">
+  <template name="post-frisby-test" value="t.create('$NAME$')&#10;    .post('$URL$', $END$ , {json: true})&#10;    .expectStatus(200)&#10;    .expectJSONTypes()&#10;    .expectJSON()&#10;    .toss();&#10;&#10;&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="get-frisby-test" value="t.create('$NAME$')&#10;    .get('$URL$' , {json: true})&#10;    .expectStatus(200)&#10;    .expectJSONTypes()&#10;    .expectJSON()&#10;    .toss();&#10;&#10;&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
