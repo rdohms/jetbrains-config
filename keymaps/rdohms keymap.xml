@@ -13,7 +13,14 @@
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
-  <action id="EditorSelectWord" />
+  <action id="EditorScrollUp" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta n" />
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta n" />
     <keyboard-shortcut first-keystroke="shift meta r" />
