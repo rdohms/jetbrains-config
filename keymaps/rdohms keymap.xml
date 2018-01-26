@@ -1,4 +1,6 @@
 <keymap version="1" name="rdohms keymap" parent="Mac OS X">
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
@@ -22,6 +24,11 @@
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta up" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+    <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="meta n" />
