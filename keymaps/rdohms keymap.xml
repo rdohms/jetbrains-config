@@ -1,42 +1,27 @@
-<keymap version="1" name="rdohms keymap" parent="Mac OS X 10.5+">
+<keymap version="1" name="rdohms keymap" parent="Mac OS X">
+  <action id="CloseEditor">
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
-    <keyboard-shortcut first-keystroke="shift space" />
+    <keyboard-shortcut first-keystroke="shift alt space" />
   </action>
-  <action id="CompareTwoFiles" />
-  <action id="DashLauncherAction" />
-  <action id="Diff.ShowDiff" />
-  <action id="Diff.ShowSettingsPopup" />
-  <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="ctrl meta alt up" />
-  </action>
-  <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="ctrl meta alt down" />
-  </action>
+  <action id="Console.History.BrowseTW" />
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
-  <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="shift meta d" />
-  </action>
   <action id="EditorDuplicateLines">
-    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
-  <action id="FileChooser.GotoDesktop" />
+  <action id="EditorSelectWord" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="IncrementWindowHeight" />
+  <action id="MoveStatementDown" />
   <action id="RecentFiles" />
-  <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
-    <keyboard-shortcut first-keystroke="shift f10" />
-  </action>
-  <action id="SendEOF" />
-  <action id="ShelvedChanges.Diff" />
-  <action id="SplitHorizontally">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
-  </action>
-  <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
-  </action>
+  <action id="ResizeToolWindowDown" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
@@ -52,10 +37,8 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
-  <action id="Uml.ShowDiff" />
   <action id="UsageView.ShowRecentFindUsages" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
-  <action id="openAssertEqualsDiff" />
 </keymap>

@@ -13,9 +13,7 @@
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
-  <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="alt up" />
-  </action>
+  <action id="EditorSelectWord" />
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta n" />
     <keyboard-shortcut first-keystroke="shift meta r" />
@@ -24,16 +22,6 @@
   <action id="MoveStatementDown" />
   <action id="RecentFiles" />
   <action id="ResizeToolWindowDown" />
-  <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f10" />
-    <keyboard-shortcut first-keystroke="f10" />
-  </action>
-  <action id="SplitHorizontally">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
-  </action>
-  <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
-  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
