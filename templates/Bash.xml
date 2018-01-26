@@ -1,0 +1,7 @@
+<templateSet group="Bash">
+  <template name="greencolor" value="\[\e[32m\]$SELECTION$\[\e[m\] " description="Wraps in a plain green color prompt" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
