@@ -18,9 +18,6 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
-  <action id="EditorDuplicateLines">
-    <keyboard-shortcut first-keystroke="shift meta down" />
-  </action>
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta up" />
@@ -39,7 +36,6 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="IncrementWindowHeight" />
-  <action id="MoveStatementDown" />
   <action id="RecentFiles" />
   <action id="ResizeToolWindowDown" />
   <action id="SwitchApply">
