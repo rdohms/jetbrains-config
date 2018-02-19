@@ -1,4 +1,6 @@
 <keymap version="1" name="rdohms keymap" parent="Mac OS X">
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="CloseEditor">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
@@ -16,12 +18,14 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
-  <action id="EditorDuplicateLines">
-    <keyboard-shortcut first-keystroke="shift meta down" />
-  </action>
   <action id="EditorScrollUp" />
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta up" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+    <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="meta n" />
@@ -32,9 +36,14 @@
     <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="IncrementWindowHeight" />
-  <action id="MoveStatementDown" />
   <action id="RecentFiles" />
   <action id="ResizeToolWindowDown" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="h" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="v" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
