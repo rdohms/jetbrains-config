@@ -12,7 +12,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="named constructor" value="public static function $NAME$($PARAMETERS$)&#10;{&#10;    $instance = new static();&#10;    $END$&#10;    return $instance;&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="named constructor" value="public static function $NAME$($PARAMETERS$)&#10;{&#10;    $instance = new static();&#10;    $END$&#10;    return $instance;&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
