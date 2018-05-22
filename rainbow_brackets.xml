@@ -1,5 +1,6 @@
 <application>
   <component name="RainbowSettings">
-    <option name="version" value="5.0" />
+    <option name="rainbowifyHTMLInsideJS" value="true" />
+    <option name="version" value="5.8" />
   </component>
 </application>
