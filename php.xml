@@ -9,8 +9,8 @@
   <component name="PhpCodeSniffer">
     <phpcs_settings_migrated />
     <phpcs_settings>
-      <PhpCSConfiguration standards="MySource;PEAR;PSR1;PSR2;Squiz;Zend" tool_path="vendor/bin/phpcs" />
       <phpcs_by_interpreter interpreter_id="b2754701-46ca-4fb7-8149-1f1f4eb0b0e9" standards="MySource;PEAR;PSR1;PSR2;Squiz;Zend" tool_path="/source/api/api/application/vendor/bin/phpcs" />
+      <PhpCSConfiguration standards="MySource;PEAR;PSR1;PSR2;Squiz;Zend" tool_path="vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
