@@ -1,6 +1,7 @@
 <application>
   <component name="RainbowSettings">
     <option name="rainbowifyHTMLInsideJS" value="true" />
-    <option name="version" value="5.8" />
+    <option name="rainbowifyKotlinFunctionLiteralBracesAndArrow" value="true" />
+    <option name="version" value="5.8.2" />
   </component>
 </application>
