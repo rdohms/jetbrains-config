@@ -1,5 +1,15 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group seperator="true" action_type="1" position="14">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="FindInPath" is_action="true" action_type="1" position="15">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <action id="ReformatCode" icon="$USER_HOME$/dev/resources/icons/glyphicons_free/glyphicons/png/glyphicons_117_embed.png" />
     <action id="SearchEverywhere" icon="$USER_HOME$/Pictures/icons/actions/preview.png" />
     <action id="com.jetbrains.plugins.vagrant.actions.VagrantSuspendAction" icon="$USER_HOME$/dev/resources/icons/glyphicons_free/glyphicons/png/glyphicons_174_pause.png" />
