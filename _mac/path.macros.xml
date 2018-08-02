@@ -1,5 +1,9 @@
 <application>
   <component name="PathMacrosImpl">
     <macro name="ProjectDir" value="/Users/rdohms/dev/usabilla/slack-bot" />
+    <ignoredMacro name="MESSAGE" />
+    <ignoredMacro name="FILE_PATH" />
+    <ignoredMacro name="LINE" />
+    <ignoredMacro name="COLUMN" />
   </component>
 </application>
