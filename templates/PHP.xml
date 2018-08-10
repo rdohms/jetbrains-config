@@ -6,20 +6,20 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="builder" value="public static function build($PARAMETERS$)&#10;{&#10;    $instance = new static();&#10;    $END$&#10;    &#10;    return $instance;&#10;}" description="" toReformat="true" toShortenFQNames="true">
+  <template name="builder" value="public static function build($PARAMETERS$): self&#10;{&#10;    $instance = new static();&#10;    $END$&#10;    &#10;    return $instance;&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="named constructor" value="public static function $NAME$($PARAMETERS$)&#10;{&#10;    $instance = new static();&#10;    $END$&#10;    return $instance;&#10;}" description="" toReformat="true" toShortenFQNames="true">
+  <template name="named constructor" value="public static function $NAME$($PARAMETERS$): self&#10;{&#10;    $instance = new static();&#10;    $END$&#10;    return $instance;&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="setupDep" value="/**&#10; * @before&#10; */&#10;public function setupDependencies()&#10;{&#10;    $END$&#10;}" description="Setup Dependencies" toReformat="false" toShortenFQNames="true">
+  <template name="setupDep" value="/**&#10; * @before&#10; */&#10;public function setupDependencies(): void&#10;{&#10;    $END$&#10;}" description="Setup Dependencies" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="PHP Class Member" value="true" />
     </context>
