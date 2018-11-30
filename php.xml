@@ -311,7 +311,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP (Brew)">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.2.6/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.2.6/bin/php" path_separator=":" version="7.2.6">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.2.12_2/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.2.12_2/bin/php" path_separator=":" version="7.2.12">
           <additional_php_ini>/usr/local/etc/php/7.2/conf.d/ext-opcache.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.2/php.ini</configuration_file>
           <configuration_options>
@@ -399,7 +399,7 @@
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.2.6/share/php/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.2.12_2/share/php/pear" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
             <configuration_option name="intl.default_locale" value="" />
@@ -565,6 +565,8 @@
             <configuration_option name="soap.wsdl_cache_ttl" value="86400" />
             <configuration_option name="sqlite3.extension_dir" value="" />
             <configuration_option name="sys_temp_dir" value="" />
+            <configuration_option name="tidy.clean_output" value="" />
+            <configuration_option name="tidy.default_config" value="" />
             <configuration_option name="track_errors" value="0" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="2M" />
@@ -705,6 +707,7 @@
             <extension name="phpdbg_webhelper" />
             <extension name="posix" />
             <extension name="pspell" />
+            <extension name="rdkafka" />
             <extension name="readline" />
             <extension name="session" />
             <extension name="shmop" />
@@ -716,6 +719,7 @@
             <extension name="sysvmsg" />
             <extension name="sysvsem" />
             <extension name="sysvshm" />
+            <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
             <extension name="xdebug" />
@@ -2365,10 +2369,5 @@
   </component>
   <component name="PhpSmartKeysConfiguration">
     <option name="smartFunctionParametersCompletion" value="true" />
-  </component>
-  <component name="PhpUnit">
-    <phpunit_settings>
-      <PhpUnitSettings load_method="CUSTOM_LOADER" />
-    </phpunit_settings>
   </component>
 </application>
