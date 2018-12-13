@@ -1,9 +1,8 @@
 <application>
   <component name="senya-license">
     <option name="key" value="BHJT-GL36-CRT4-LRV4-KLX4-NRT6" />
-    <option name="license" value="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJrZXkiOiJCSEpULUdMMzYtQ1JUNC1MUlY0LUtMWDQtTlJUNiIsImlzcyI6Imh0dHBzOlwvXC9zZW55YS5pb1wvIiwiYXVkIjoiaHR0cHM6XC9cL3NlbnlhLmlvXC93cC1qc29uXC9zZW55YS1saWNlbnNpbmdcL3YxXC9saWNlbnNlIiwiaWF0IjoxNTQ0NDM4MzkxLCJuYmYiOjE1NDQ0MzgzOTEsImV4cCI6MTU0NDY5NzU5MX0.GU3Yg0gHb8qRYrKJtWm9t0REIyJOr6jG_N1U0CoKDcIunhVyc1VsZWrdp0qVORKKI0-4Myded9gNC0qfZAagS4hr48BFU-e0xgtWOtJo51GJ6_LfM-tIhuhrl83G3Ncr3J0GStW70MCpL6jw5MVJxneiMCp1E_uLwmK1-KVAxBR6xf97rxIzMJi61EpyRYLqNDnPJRr6H8iligQBcaj_3ilMX0Wj9j6RICkXD5jqV3Ty_1YIA4v6U3dmYfv3x8xAia2pHNKY1qwUC5AERvsnHDdkdfaZRHFgmkZHHvhMJKBjfquqduShv57-Alpj6DwrZQXXgFdEM2qAEigCOWB6zg" />
+    <option name="license" value="" />
     <option name="accessToken" value="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IlEwUkZRVEJGT1VZMk5qa3lPVU5ETXpKR09FTXhPRE01T0VKRU9FRkVRVUpEUWpnNVEwRkJSZyJ9.eyJpc3MiOiJodHRwczovL3NlbnlhLmV1LmF1dGgwLmNvbS8iLCJzdWIiOiJCSjhrR2c3d256WGdBZUlSd0c1SDRJWDNTdE80eWpKUkBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9zZW55YS5pby93cC1qc29uL3NlbnlhLWxpY2Vuc2luZy92MSIsImlhdCI6MTU0NDYyMTgyMywiZXhwIjoxNTQ0NzA4MjIzLCJhenAiOiJCSjhrR2c3d256WGdBZUlSd0c1SDRJWDNTdE80eWpKUiIsImd0eSI6ImNsaWVudC1jcmVkZW50aWFscyJ9.ZQMoWBVwe49cvzEJVOQTYPf_62iYhxBFIflR7Q4jSCPwHgwwgCX6yNhgkz1wBCM5o_GmxWfQr3a-Y8E5Y4kFgVkvg5kARiQElAp0EJhpotjhhGy5waZS1KcWEEyXgGBIpa0d0QtKdyJEUSohWb9MuITOvk7cWGISzAASP575XMq00KqC5A6FwNUIlH8nC8Zothq9bd4jsJ59-8g7XAoQsgHJ7jx6hIK5mCr-WY9oDZu6kJnd74KWauOJeCHee4CeleL4q-qVZtOVslhMmPSnY4aIKxL793rjqqlp4w3gwj6Di-xFXISTc4zqlpsk3vOHAR0M8rXKhBEerb5o7Mk0BA" />
-    <option name="expiresAt" value="December 13, 2018 11:39:51 AM CET" />
-    <option name="active" value="true" />
+    <option name="expiresAt" value="December 16, 2018 12:42:00 PM CET" />
   </component>
 </application>
