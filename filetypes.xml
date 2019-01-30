@@ -2,8 +2,6 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <mapping pattern="post-checkout" type="Bash" />
-      <mapping pattern=".env.dist" type="Bash" />
       <mapping pattern="Dockerfile-*" type="Dockerfile" />
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping ext="tmpl" type="HTML" />
@@ -14,6 +12,7 @@
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
       <mapping pattern=".my.cnf" type="PLAIN_TEXT" />
@@ -31,7 +30,9 @@
       <mapping pattern="*.yml.dist" type="YAML" />
       <mapping pattern="*.neon.dist" type="YAML" />
       <mapping ext="neon" type="YAML" />
+      <mapping pattern=".env.dist" type="Bash" />
       <mapping pattern="code-entry" type="LESS" />
+      <mapping pattern="post-checkout" type="Bash" />
     </extensionMap>
   </component>
 </application>
