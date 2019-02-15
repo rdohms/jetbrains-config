@@ -5,6 +5,7 @@
       <mapping pattern="Dockerfile-*" type="Dockerfile" />
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping ext="tmpl" type="HTML" />
+      <mapping pattern="*.json.dist" type="JSON" />
       <mapping pattern=".bowerrc" type="JSON" />
       <mapping ext="tmproj" type="Native" />
       <mapping ext="" type="Native" />
