@@ -4,12 +4,17 @@
     <property name="created">2018-01-26T10:54:10</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-09-18T14:48:48</property>
+    <property name="modified">2019-02-20T17:31:04</property>
     <property name="originalScheme">_@user_Darcula</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo for Powerline" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <attributes>
+    <option name="ANGLE_BRACKETS_RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="8080ff" />
+      </value>
+    </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="bc3f3c" />
@@ -32,6 +37,11 @@
       <value>
         <option name="BACKGROUND" value="99ccbb" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ROUND_BRACKETS_RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="8080ff" />
       </value>
     </option>
   </attributes>
