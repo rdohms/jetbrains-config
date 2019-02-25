@@ -73,9 +73,4 @@
     <option name="RIGHT_MARGIN" value="120" />
     <option name="WRAP_ON_TYPING" value="0" />
   </codeStyleSettings>
-  <codeStyleSettings language="yaml">
-    <indentOptions>
-      <option name="INDENT_SIZE" value="4" />
-    </indentOptions>
-  </codeStyleSettings>
 </code_scheme>
