@@ -5,7 +5,7 @@
       <MessDetectorConfiguration tool_path="$USER_HOME$/.composer/vendor/bin/phpmd" />
     </phpmd_settings>
   </component>
-  <component name="PhpAutoImport" auto_import_file_scope="true" global_class_behavior="PREFER_IMPORT" global_constant_behavior="PREFER_IMPORT" global_function_behavior="PREFER_IMPORT" />
+  <component name="PhpAutoImport" auto_import_file_scope="true" global_class_behavior="PREFER_IMPORT" global_constant_behavior="PREFER_IMPORT" global_function_behavior="PREFER_IMPORT" import_on_paste="ALL" />
   <component name="PhpCodeSniffer">
     <phpcs_settings_migrated />
     <phpcs_settings>
