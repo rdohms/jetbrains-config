@@ -4,7 +4,7 @@
     <property name="created">2018-01-26T10:54:10</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2019-02-20T17:31:04</property>
+    <property name="modified">2019-03-01T16:29:18</property>
     <property name="originalScheme">_@user_Darcula</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo for Powerline" />
@@ -35,8 +35,9 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="99ccbb" />
+        <option name="BACKGROUND" value="565858" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="797b7b" />
       </value>
     </option>
     <option name="ROUND_BRACKETS_RAINBOW_COLOR3">
