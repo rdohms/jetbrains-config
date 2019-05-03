@@ -24,10 +24,10 @@
       <option name="PHP Class Member" value="true" />
     </context>
   </template>
-  <template name="pubf" value="public function $NAME$($PARAMETERS$): $RETURN_TYPE${&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
+  <template name="pubf" value="public function $NAME$($PARAMETERS$): $RETURN_TYPES${&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURN_TYPE" expression="" defaultValue="void" alwaysStopAt="true" />
+    <variable name="RETURN_TYPES" expression="completeSmart()" defaultValue="void" alwaysStopAt="true" />
     <context />
   </template>
   <template name="pubsf" value="public static function $NAME$($PARAMETERS$): $RETURN_TYPE${&#10;    $END$&#10;}" description="public static function" toReformat="true" toShortenFQNames="true">
