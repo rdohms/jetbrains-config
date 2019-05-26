@@ -1,7 +1,12 @@
-<inspections profile_name="Default" version="1.0">
+<profile version="1.0">
   <option name="myName" value="Default" />
-  <option name="myLocal" value="true" />
+  <inspection_tool class="PhpDocMissingReturnTagInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="SKIP_ON_PRESENT_TYPE_HINT" value="true" />
+  </inspection_tool>
+  <inspection_tool class="PhpDocSignatureInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ALLOW_MISSING_PARAMETERS" value="true" />
+  </inspection_tool>
   <inspection_tool class="PhpMultipleClassesDeclarationsInOneFile" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PhpTraditionalSyntaxArrayLiteralInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="PhpUsageOfSilenceOperatorInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-</inspections>
+</profile>
