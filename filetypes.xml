@@ -2,6 +2,8 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
+      <mapping pattern="post-checkout" type="Bash" />
+      <mapping pattern=".env.dist" type="Bash" />
       <mapping pattern="Dockerfile-*" type="Dockerfile" />
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping ext="tmpl" type="HTML" />
@@ -40,9 +42,7 @@
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="sh" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <mapping pattern=".env.dist" type="Bash" />
       <mapping pattern="code-entry" type="LESS" />
-      <mapping pattern="post-checkout" type="Bash" />
     </extensionMap>
   </component>
 </application>
