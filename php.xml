@@ -33,11 +33,11 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP (Brew)">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php@7.2/7.2.15/bin/php-cgi" php_cli="/usr/local/Cellar/php@7.2/7.2.15/bin/php" path_separator=":" version="7.2.15">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php@7.2/7.2.19/bin/php-cgi" php_cli="/usr/local/Cellar/php@7.2/7.2.19/bin/php" path_separator=":" version="7.2.19">
           <additional_php_ini>/usr/local/etc/php/7.2/conf.d/blackfire.ini, /usr/local/etc/php/7.2/conf.d/ext-opcache.ini, /usr/local/etc/php/7.2/conf.d/memory.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.2/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php@7.2/7.2.15/share/php@7.2/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php@7.2/7.2.19/share/php@7.2/pear" />
           </configuration_options>
           <debuggers>
             <debugger_info debugger="xdebug" debugger_version="2.6.1">
