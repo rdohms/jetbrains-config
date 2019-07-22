@@ -33,17 +33,13 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP (Brew)">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php@7.2/7.2.19/bin/php-cgi" php_cli="/usr/local/Cellar/php@7.2/7.2.19/bin/php" path_separator=":" version="7.2.19">
-          <additional_php_ini>/usr/local/etc/php/7.2/conf.d/blackfire.ini, /usr/local/etc/php/7.2/conf.d/ext-opcache.ini, /usr/local/etc/php/7.2/conf.d/memory.ini</additional_php_ini>
-          <configuration_file>/usr/local/etc/php/7.2/php.ini</configuration_file>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.3.7/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.3.7/bin/php" path_separator=":" version="7.3.7">
+          <additional_php_ini>/usr/local/etc/php/7.3/conf.d/ext-opcache.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/php/7.3/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php@7.2/7.2.19/share/php@7.2/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.3.7/share/php/pear" />
           </configuration_options>
-          <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.6.1">
-              <debug_extensions />
-            </debugger_info>
-          </debuggers>
+          <debuggers />
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
@@ -53,9 +49,7 @@
             <extension name="SPL" />
             <extension name="SimpleXML" />
             <extension name="Zend OPcache" />
-            <extension name="apcu" />
             <extension name="bcmath" />
-            <extension name="blackfire" />
             <extension name="bz2" />
             <extension name="calendar" />
             <extension name="ctype" />
@@ -77,7 +71,6 @@
             <extension name="ldap" />
             <extension name="libxml" />
             <extension name="mbstring" />
-            <extension name="mongodb" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="odbc" />
@@ -92,7 +85,6 @@
             <extension name="phpdbg_webhelper" />
             <extension name="posix" />
             <extension name="pspell" />
-            <extension name="rdkafka" />
             <extension name="readline" />
             <extension name="session" />
             <extension name="shmop" />
@@ -107,7 +99,6 @@
             <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
-            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
