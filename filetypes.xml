@@ -18,9 +18,9 @@
       <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
       <mapping pattern=".my.cnf" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping ext="test" type="PLAIN_TEXT" />
-      <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="lol" type="PLAIN_TEXT" />
+      <mapping ext="template" type="PLAIN_TEXT" />
+      <mapping ext="test" type="PLAIN_TEXT" />
       <mapping ext="prod" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
@@ -29,8 +29,8 @@
       <mapping ext="j2" type="Twig" />
       <mapping pattern="*.xml.dist" type="XML" />
       <mapping pattern="web.config" type="XML" />
-      <mapping ext="xlf" type="XML" />
       <mapping ext="xliff" type="XML" />
+      <mapping ext="xlf" type="XML" />
       <mapping pattern="*.yml.dist" type="YAML" />
       <mapping pattern="*.neon.dist" type="YAML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
