@@ -1,4 +1,15 @@
 <application>
+  <component name="CodeInsightSettings">
+    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
+    <option name="PARAMETER_INFO_DELAY" value="500" />
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+    <option name="JAVADOC_INFO_DELAY" value="500" />
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
+  </component>
   <component name="DefaultFont">
     <option name="SECONDARY_FONT_FAMILY" value="Menlo for Powerline" />
   </component>
@@ -7,7 +18,6 @@
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
     <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="true" />
-    <option name="QUICK_DOC_ON_MOUSE_OVER_DELAY_MS" value="2000" />
     <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="IS_CAMEL_WORDS" value="true" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
@@ -16,6 +26,9 @@
   <component name="LiveEditOptions">
     <option name="elementHighlighting" value="false" />
     <option name="liveEditing" value="false" />
+  </component>
+  <component name="PhpCodeFoldingSettings">
+    <option name="COLLAPSE_IMPORTS" value="false" />
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
